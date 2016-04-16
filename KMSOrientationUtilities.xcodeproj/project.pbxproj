@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2540B55BFF3E7FF87D7D0BFEB7B8DC10 /* KMSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF005880B97200D2816277498C1A73 /* KMSRootViewController.m */; };
+		5C1664E88092A8D2533301E2294D993F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA0F27557E8F91A619D4710F7BB9D8B /* LaunchScreen.storyboard */; };
+		61D38C24C34503FA9F497AA8820A41BE /* KMSApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7314D8754B2F6133977A5962A72652 /* KMSApplicationDelegate.m */; };
+		7EF29BCE155FF5B6CF605C631CBF5B79 /* KMSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DCD8A47415CA58EF7BBBB08B177A09 /* KMSBaseViewController.m */; };
+		B17DB19ADC1CD182BFBAED1B7745AD64 /* KMSPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2307162BDB621667131BFF50B13D1CE3 /* KMSPortraitViewController.m */; };
+		C7CA58E8495EC7E23696AFC346135860 /* KMSLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0259A182BF73DAF98DB97FB5BCB94 /* KMSLandscapeViewController.m */; };
+		E37849F35F5987086D5F767E23E1AE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE9699AAED4E9D67496DA8EFEB13B91 /* main.m */; };
+		EE49914044DEEE831431BD6523B452E6 /* KMSOrientationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D7E247860049C32588FBDC4F865A69 /* KMSOrientationUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DCD8A47415CA58EF7BBBB08B177A09 /* KMSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSBaseViewController.m; sourceTree = "<group>"; };
+		11A36C2618EC5F3F128A5FA7C407E2AF /* KMSOrientationUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSOrientationUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		203D271A32E85442C584522265EC5018 /* KMSLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSLandscapeViewController.h; sourceTree = "<group>"; };
+		2307162BDB621667131BFF50B13D1CE3 /* KMSPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSPortraitViewController.m; sourceTree = "<group>"; };
+		2AFF005880B97200D2816277498C1A73 /* KMSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSRootViewController.m; sourceTree = "<group>"; };
+		8AF0259A182BF73DAF98DB97FB5BCB94 /* KMSLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSLandscapeViewController.m; sourceTree = "<group>"; };
+		91D7E247860049C32588FBDC4F865A69 /* KMSOrientationUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSOrientationUtilities.m; sourceTree = "<group>"; };
+		95FEC42F87963A125012E561AA040299 /* KMSOrientationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSOrientationUtilities.h; sourceTree = "<group>"; };
+		BC7314D8754B2F6133977A5962A72652 /* KMSApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSApplicationDelegate.m; sourceTree = "<group>"; };
+		C607561CF38E2DEEFF1A659ADD4C8C20 /* KMSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSBaseViewController.h; sourceTree = "<group>"; };
+		CABC3F5D54C20A7B4A066CF678EC277B /* KMSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSRootViewController.h; sourceTree = "<group>"; };
+		CDE9699AAED4E9D67496DA8EFEB13B91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D47E0D24B1A304E447510CA83A290D65 /* KMSApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSApplicationDelegate.h; sourceTree = "<group>"; };
+		E1DE1139217AF7D4F7BE53888DC900F4 /* KMSPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSPortraitViewController.h; sourceTree = "<group>"; };
+		EEA0F27557E8F91A619D4710F7BB9D8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66931FCD02932BFA6AA633C95C32280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEA876DC9A417482027B0FFF50404D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A36C2618EC5F3F128A5FA7C407E2AF /* KMSOrientationUtilities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1AC08C9034F8BF406F8117B6CD0CA4 /* KMSOrientationUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2FAF5BC1126C6890015D1296D2E6A /* Library */,
+				5F1C597BCB82A2B719B323E0C719EFFC /* Sample */,
+			);
+			path = KMSOrientationUtilities;
+			sourceTree = "<group>";
+		};
+		CBE2FAF5BC1126C6890015D1296D2E6A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				95FEC42F87963A125012E561AA040299 /* KMSOrientationUtilities.h */,
+				91D7E247860049C32588FBDC4F865A69 /* KMSOrientationUtilities.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5F1C597BCB82A2B719B323E0C719EFFC /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				130D51708281554C4FE7DCB9E09E21BA /* Bootstrap */,
+				3F1F00179C527A3311C8C69885708614 /* Views */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		130D51708281554C4FE7DCB9E09E21BA /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				D47E0D24B1A304E447510CA83A290D65 /* KMSApplicationDelegate.h */,
+				BC7314D8754B2F6133977A5962A72652 /* KMSApplicationDelegate.m */,
+				EEA0F27557E8F91A619D4710F7BB9D8B /* LaunchScreen.storyboard */,
+				CDE9699AAED4E9D67496DA8EFEB13B91 /* main.m */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		3F1F00179C527A3311C8C69885708614 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C607561CF38E2DEEFF1A659ADD4C8C20 /* KMSBaseViewController.h */,
+				09DCD8A47415CA58EF7BBBB08B177A09 /* KMSBaseViewController.m */,
+				203D271A32E85442C584522265EC5018 /* KMSLandscapeViewController.h */,
+				8AF0259A182BF73DAF98DB97FB5BCB94 /* KMSLandscapeViewController.m */,
+				E1DE1139217AF7D4F7BE53888DC900F4 /* KMSPortraitViewController.h */,
+				2307162BDB621667131BFF50B13D1CE3 /* KMSPortraitViewController.m */,
+				CABC3F5D54C20A7B4A066CF678EC277B /* KMSRootViewController.h */,
+				2AFF005880B97200D2816277498C1A73 /* KMSRootViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E0C59DDEBB534C55E2AB7B2E4968E39 = {
+			isa = PBXGroup;
+			children = (
+				6D1AC08C9034F8BF406F8117B6CD0CA4 /* KMSOrientationUtilities */,
+				0BEA876DC9A417482027B0FFF50404D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619753157449D0796B41733422F9AE95 /* KMSOrientationUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEDFA4DFDBAB161D0D2AE1AADF61E8D /* Build configuration list for PBXNativeTarget "KMSOrientationUtilities" */;
+			buildPhases = (
+				99C36EC84555CAD308D98BFB786D3F9A /* Sources */,
+				D66931FCD02932BFA6AA633C95C32280 /* Frameworks */,
+				BC958375FADF42F29C498C7B624603C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMSOrientationUtilities;
+			productName = OrientationAdapter;
+			productReference = 11A36C2618EC5F3F128A5FA7C407E2AF /* KMSOrientationUtilities.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D3455CFDE9383601819D01FF2809CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KMS;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kirisame Magic Shop";
+				TargetAttributes = {
+					619753157449D0796B41733422F9AE95 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UR85QFN4T;
+					};
+				};
+			};
+			buildConfigurationList = F9A6065FDA34A11871D110A858ECB9A1 /* Build configuration list for PBXProject "KMSOrientationUtilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E0C59DDEBB534C55E2AB7B2E4968E39;
+			productRefGroup = 0BEA876DC9A417482027B0FFF50404D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619753157449D0796B41733422F9AE95 /* KMSOrientationUtilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC958375FADF42F29C498C7B624603C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1664E88092A8D2533301E2294D993F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C36EC84555CAD308D98BFB786D3F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D38C24C34503FA9F497AA8820A41BE /* KMSApplicationDelegate.m in Sources */,
+				7EF29BCE155FF5B6CF605C631CBF5B79 /* KMSBaseViewController.m in Sources */,
+				C7CA58E8495EC7E23696AFC346135860 /* KMSLandscapeViewController.m in Sources */,
+				EE49914044DEEE831431BD6523B452E6 /* KMSOrientationUtilities.m in Sources */,
+				B17DB19ADC1CD182BFBAED1B7745AD64 /* KMSPortraitViewController.m in Sources */,
+				2540B55BFF3E7FF87D7D0BFEB7B8DC10 /* KMSRootViewController.m in Sources */,
+				E37849F35F5987086D5F767E23E1AE8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		402AA82441958349F316C1C6AE46DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMSOrientationUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirisame.OrientationUtilities;
+				PRODUCT_NAME = KMSOrientationUtilities;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67D0D9D52866189EE386D21C92664B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB28EB16478429B469A60821E2C0B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57D98D3342ADCF88458E4CA8A179B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMSOrientationUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirisame.OrientationUtilities;
+				PRODUCT_NAME = KMSOrientationUtilities;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DEDFA4DFDBAB161D0D2AE1AADF61E8D /* Build configuration list for PBXNativeTarget "KMSOrientationUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402AA82441958349F316C1C6AE46DCAD /* Debug */,
+				C57D98D3342ADCF88458E4CA8A179B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A6065FDA34A11871D110A858ECB9A1 /* Build configuration list for PBXProject "KMSOrientationUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D0D9D52866189EE386D21C92664B2A /* Debug */,
+				7BB28EB16478429B469A60821E2C0B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D3455CFDE9383601819D01FF2809CCE /* Project object */;
+}
